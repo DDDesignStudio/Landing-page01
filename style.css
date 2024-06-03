@@ -110,6 +110,8 @@ a {
 
 .box1, .box2, .box3, .box4 {
     display: flex;
+    width: 160px;
+    height: 300px;
     flex-direction: column;
     text-align: center;
     text-wrap: wrap;
@@ -120,6 +122,7 @@ a {
 .quotebox {
     display: flex;
     flex-direction: column;
+    min-width: 600px;
     align-items: center;
     justify-content: center;
     padding: 150px;
@@ -127,6 +130,10 @@ a {
     margin-right: auto;
     margin-left: auto;
     background-color: #E5E7EB;
+}
+
+.quote1 {
+    width: 700px;
 }
 
 
