@@ -49,14 +49,13 @@ a {
     justify-content: center;
     background-color: #1F2937;
     margin-top: 50px;
-
     margin-left: auto;
     margin-right: auto;
 }
 .desc-left {
     display: flex;
     box-sizing: content-box;
-    width: 600px;
+    width: 800px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -65,7 +64,7 @@ a {
 .desc-right {
     display: flex;
     box-sizing: content-box;
-    width: 600px;
+    width: 800px;
     align-items: center;
     justify-content: center;
 }
@@ -100,18 +99,36 @@ a {
 .boxrow {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 100px;
     gap: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    flex-wrap: wrap;
 }
 
 .box1, .box2, .box3, .box4 {
     display: flex;
     flex-direction: column;
-    text-wrap: wrap;
     text-align: center;
+    text-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E5E7EB;
+}
+
+
+
+
